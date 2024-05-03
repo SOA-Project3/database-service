@@ -1,0 +1,73 @@
+-- Crear usuarios de ejemplo
+INSERT INTO UserData (Id, Fullname, Rol, Password)
+VALUES
+    (102560874, 'Harry Styles', 'Admin', 'password123'),
+    (203650147, 'María López', 'User', 'securepass'),
+    (305320066, 'Valesska Blanco', 'User', '12345678'),
+    (208200172, 'Diana Mejías', 'User', 'p@ssw0rd');
+
+
+-- Crear espacios de horario para una semana completa (del 1 al 7 de mayo de 2024)
+-- Horarios de 12pm a 10pm, cada 2 horas
+-- Lunes (1 de mayo)
+INSERT INTO ScheduleSlots (Date, Time, IsBooked)
+VALUES
+    ('2024-05-01', '12:00', 0),
+    ('2024-05-01', '14:00', 0),
+    ('2024-05-01', '16:00', 0),
+    ('2024-05-01', '18:00', 0),
+    ('2024-05-01', '20:00', 0);
+
+-- Martes (2 de mayo)
+INSERT INTO ScheduleSlots (Date, Time, IsBooked)
+VALUES
+    ('2024-05-02', '12:00', 0),
+    ('2024-05-02', '14:00', 0),
+    ('2024-05-02', '16:00', 0),
+    ('2024-05-02', '18:00', 0),
+    ('2024-05-02', '20:00', 0);
+
+-- Miércoles (3 de mayo)
+INSERT INTO ScheduleSlots (Date, Time, IsBooked)
+VALUES
+    ('2024-05-03', '12:00', 0),
+    ('2024-05-03', '14:00', 0),
+    ('2024-05-03', '16:00', 0),
+    ('2024-05-03', '18:00', 0),
+    ('2024-05-03', '20:00', 0);
+
+-- Jueves (4 de mayo)
+INSERT INTO ScheduleSlots (Date, Time, IsBooked)
+VALUES
+    ('2024-05-04', '12:00', 0),
+    ('2024-05-04', '14:00', 0),
+    ('2024-05-04', '16:00', 0),
+    ('2024-05-04', '18:00', 0),
+    ('2024-05-04', '20:00', 0);
+
+-- Viernes (5 de mayo)
+INSERT INTO ScheduleSlots (Date, Time, IsBooked)
+VALUES
+    ('2024-05-05', '12:00', 0),
+    ('2024-05-05', '14:00', 0),
+    ('2024-05-05', '16:00', 0),
+    ('2024-05-05', '18:00', 0),
+    ('2024-05-05', '20:00', 0);
+
+-- Sábado (6 de mayo)
+INSERT INTO ScheduleSlots (Date, Time, IsBooked)
+VALUES
+    ('2024-05-06', '12:00', 0),
+    ('2024-05-06', '14:00', 0),
+    ('2024-05-06', '16:00', 0),
+    ('2024-05-06', '18:00', 0),
+    ('2024-05-06', '20:00', 0);
+
+-- Domingo (7 de mayo)
+INSERT INTO ScheduleSlots (Date, Time, IsBooked)
+VALUES
+    ('2024-05-07', '12:00', 0),
+    ('2024-05-07', '14:00', 0),
+    ('2024-05-07', '16:00', 0),
+    ('2024-05-07', '18:00', 0),
+    ('2024-05-07', '20:00', 0);
