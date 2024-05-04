@@ -12,7 +12,7 @@ CREATE TABLE UserData
 -- ScheduleSlots
 CREATE TABLE ScheduleSlots
 (
-	Id INT NOT NULL,
+	Id INT IDENTITY(1,1) NOT NULL,
 	Date DATE NOT NULL,
 	Time TIME NOT NULL,
 	IsBooked VARCHAR(5) NOT NULL,
