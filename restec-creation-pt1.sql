@@ -16,6 +16,7 @@ CREATE TABLE ScheduleSlots
 	Date DATE NOT NULL,
 	Time TIME NOT NULL,
 	IsBooked VARCHAR(5) NOT NULL,
+	PeopleQuantity INT,
     UserId INT,
 
 	PRIMARY KEY (Id)
@@ -26,3 +27,7 @@ CREATE TABLE ScheduleSlots
 ALTER TABLE ScheduleSlots
 ADD CONSTRAINT IsBookedDefault
 DEFAULT 'NO' FOR IsBooked;
+
+ALTER TABLE ScheduleSlots
+ADD CONSTRAINT PeopleQuantityDefault
+DEFAULT 0 FOR PeopleQuantity;
