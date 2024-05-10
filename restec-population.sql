@@ -1,10 +1,10 @@
 -- Crear usuarios de ejemplo
 INSERT INTO UserData (Id, Fullname, Rol, Password)
 VALUES
-    (102560874, 'Harry Styles', 'Admin', 'password123'),
-    (203650147, 'María López', 'User', 'securepass'),
-    (305320066, 'Valesska Blanco', 'User', '12345678'),
-    (208200172, 'Diana Mejías', 'User', 'p@ssw0rd');
+    ('harry.styles@gmail.com', 'Harry Styles', 'Admin', 'password123'),
+    ('maria.lopez@gmail.com', 'María López', 'User', 'securepass'),
+    ('valesska.blanco@gmail.com', 'Valesska Blanco', 'User', '12345678'),
+    ('diana.mejias@gmail.com', 'Diana Mejías', 'User', 'p@ssw0rd');
 
 
 -- Crear espacios de horario para una semana completa (del 1 al 7 de mayo de 2024)
