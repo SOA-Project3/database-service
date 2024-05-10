@@ -1,11 +1,11 @@
 -- User
 CREATE TABLE UserData
 (
-    UserId VARCHAR(255) NOT NULL,
+    Id VARCHAR(255) NOT NULL,
     Fullname VARCHAR(50) NOT NULL,
     Rol VARCHAR(20),
     Password VARCHAR(100) NOT NULL,
-    PRIMARY KEY (UserId)
+    PRIMARY KEY (Id)
 );
 
 -- ScheduleSlots
