@@ -19,12 +19,3 @@ CREATE TABLE ScheduleSlots
     UserId VARCHAR(255), -- Change UserId to VARCHAR
     PRIMARY KEY (Id)
 );
--- Default values
-
-ALTER TABLE ScheduleSlots
-ADD CONSTRAINT IsBookedDefault
-DEFAULT 'NO' FOR IsBooked;
-
-ALTER TABLE ScheduleSlots
-ADD CONSTRAINT PeopleQuantityDefault
-DEFAULT 0 FOR PeopleQuantity;
