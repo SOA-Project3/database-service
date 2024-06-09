@@ -3,3 +3,12 @@
 ALTER TABLE ScheduleSlots
 ADD CONSTRAINT BookingUser FOREIGN KEY (UserId)
 REFERENCES UserData(Id);
+
+ALTER TABLE ScheduleSlots
+ADD CONSTRAINT SlotBranch FOREIGN KEY (Branch)
+REFERENCES Branch(Id);
+
+ALTER TABLE Branch
+ADD CONSTRAINT BranchAdmin FOREIGN KEY (Admin)
+REFERENCES UserData(Id);
+
