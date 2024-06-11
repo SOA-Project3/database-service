@@ -4,8 +4,7 @@ CREATE TABLE UserData
     Id VARCHAR(255) NOT NULL,
     Fullname VARCHAR(50) NOT NULL,
     Rol VARCHAR(20),
-    Password VARCHAR(100) NOT NULL,
-    Iv VARCHAR(100) NOT NULL
+    Password VARCHAR(100) NOT NULL
     PRIMARY KEY (Id)
 );
 

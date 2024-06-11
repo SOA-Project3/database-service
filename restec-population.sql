@@ -1,11 +1,11 @@
 -- Crear usuarios iniciales
-INSERT INTO UserData (Id, Fullname, Rol, Password, Iv)
+INSERT INTO UserData (Id, Fullname, Rol, Password)
 VALUES
-    ('luismorarod98@gmail.com', 'Luis Pedro Morales', 'Admin', '6e9b8ee0b29d9e07d0680e844aee4465', 'b14e97e1857e62b9ebf3d251484e8053'),
-    ('geogd.712@gmail.com', 'Geovanny García', 'User', '6e9b8ee0b29d9e07d0680e844aee4465', 'b14e97e1857e62b9ebf3d251484e8053'),
-    ('valesskitab@gmail.com', 'Valesska Blanco', 'Admin', '6e9b8ee0b29d9e07d0680e844aee4465', 'b14e97e1857e62b9ebf3d251484e8053'),
-    ('academicodiana08@gmail.com', 'Diana Mejías', 'Admin', '6e9b8ee0b29d9e07d0680e844aee4465', 'b14e97e1857e62b9ebf3d251484e8053'),
-    ('harrystyles@gmail.com', 'Harry Styles', 'SuperAdmin', '6e9b8ee0b29d9e07d0680e844aee4465', 'b14e97e1857e62b9ebf3d251484e8053');
+    ('luismorarod98@gmail.com', 'Luis Pedro Morales', 'Admin', '24b8a82fce9bd4e148fdfc652136593e'),
+    ('geogd.712@gmail.com', 'Geovanny García', 'User', '24b8a82fce9bd4e148fdfc652136593e'),
+    ('valesskitab@gmail.com', 'Valesska Blanco', 'Admin', '24b8a82fce9bd4e148fdfc652136593e'),
+    ('academicodiana08@gmail.com', 'Diana Mejías', 'Admin', '24b8a82fce9bd4e148fdfc652136593e'),
+    ('harrystyles@gmail.com', 'Harry Styles', 'SuperAdmin', '24b8a82fce9bd4e148fdfc652136593e');
 
 -- Crear sucursales disponibles
 INSERT INTO Branch (Id, Admin)
